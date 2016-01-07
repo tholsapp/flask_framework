@@ -1,0 +1,15 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - microblog</title>
+    {% else %}
+    <title>Welcome to microblog</title>
+    {% endif %}
+  </head>
+  <body>
+    <div>TITLE:
+      <a href="{{ url_for('index') }}">Home</a>
+    </div>
+
+  </body>
+</html>
