@@ -1,7 +1,7 @@
 #!env/bin/python
 
 from flask import Flask
-from flask.ext.sqlalchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
@@ -17,4 +17,4 @@ def init_webapp():
   return app
 
 
-from main import views
+from src.flaskframework.main import views

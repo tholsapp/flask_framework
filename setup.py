@@ -9,7 +9,7 @@ with open(os.path.abspath('README.md')) as fh:
 
 setup (
     name='flask_framework',
-    version='0.0',
+    version='0.1',
     description=README,
     author='Troy Holsapple',
     author_email='troy.holsapple@gmail.com',

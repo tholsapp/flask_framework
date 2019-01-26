@@ -5,10 +5,10 @@ import imp
 from migrate.versioning import api
 from configobj import ConfigObj
 
-from flask.ext.script import Manager
+from flask_script import Manager
 
-from config import config, SQLALCHEMY_DATABASE_URI, SQLALCHEMY_MIGRATE_REPO
-from app import app, db, init_webapp
+from config.config import config, SQLALCHEMY_DATABASE_URI, SQLALCHEMY_MIGRATE_REPO
+from src.flaskframework import app, db, init_webapp
 
 manager = Manager(app)
 

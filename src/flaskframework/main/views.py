@@ -1,6 +1,6 @@
 #!env/bin/python
 
-from app import app
+from src.flaskframework import app
 
 @app.route('/')
 def index():
