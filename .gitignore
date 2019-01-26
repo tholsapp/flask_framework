@@ -1,5 +1,6 @@
+.coverage
 .gitignore
-*/__pycache__/*
+*__pycache__*
 venv/*
 activate
 

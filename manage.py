@@ -1,4 +1,4 @@
-#!env/bin/python
+#!./venv/bin/python
 
 import os.path
 import imp
