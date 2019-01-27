@@ -1,0 +1,22 @@
+.navbar {
+    text-align: center;
+}
+
+body {
+    background-color: ivory;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 880px;
+}
+
+
+#content {
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#footer {
+    text-align: center;
+}

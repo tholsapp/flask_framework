@@ -4,7 +4,9 @@ Click==7.0
 configobj==5.0.6
 coverage==4.5.2
 decorator==4.3.2
+dominate==2.3.5
 Flask==1.0.2
+Flask-Bootstrap==3.3.7.1
 Flask-Script==2.0.6
 Flask-SQLAlchemy==2.3.2
 itsdangerous==1.1.0
@@ -21,4 +23,5 @@ SQLAlchemy==1.2.17
 sqlalchemy-migrate==0.12.0
 sqlparse==0.2.4
 Tempita==0.5.2
+visitor==0.1.3
 Werkzeug==0.14.1

@@ -1,6 +1,7 @@
 #!env/bin/python
 
 from flask import Flask
+from flask_bootstrap import Bootstrap
 from flask_sqlalchemy import SQLAlchemy
 
 
@@ -14,7 +15,8 @@ def init_webapp():
   """ Iniitialize Flask Configuration """
   app.config.from_object('config')
 
+  Bootstrap(app)
   return app
 
 
-from src.flaskframework.main import views
+from src.flaskframework import views
