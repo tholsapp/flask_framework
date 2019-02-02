@@ -1,6 +1,10 @@
 .coverage
 .gitignore
+*egg-info*
 *__pycache__*
-venv/*
-activate
+.DS_Store
 
+activate
+build
+dist
+venv

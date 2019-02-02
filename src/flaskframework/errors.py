@@ -1,5 +1,3 @@
-#!env/bin/python
-
 from app import app
 
 @app.errorhandler(403)
